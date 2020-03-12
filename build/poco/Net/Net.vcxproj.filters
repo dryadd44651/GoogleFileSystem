@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\AbstractHTTPRequestHandler.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\DNS.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\DatagramSocket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\DatagramSocketImpl.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\DialogSocket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\FTPClientSession.cpp">
+      <Filter>FTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\FTPStreamFactory.cpp">
+      <Filter>FTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\FilePartSource.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTMLForm.cpp">
+      <Filter>HTML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPAuthenticationParams.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPBasicCredentials.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPBufferAllocator.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPChunkedStream.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPClientSession.cpp">
+      <Filter>HTTPClient\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPCookie.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPCredentials.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPDigestCredentials.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPFixedLengthStream.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPHeaderStream.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPIOStream.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPMessage.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPRequest.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPRequestHandler.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPRequestHandlerFactory.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPResponse.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPServer.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPServerConnection.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPServerConnectionFactory.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPServerParams.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPServerRequest.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPServerRequestImpl.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPServerResponse.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPServerResponseImpl.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPServerSession.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPSession.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPSessionFactory.cpp">
+      <Filter>HTTPClient\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPSessionInstantiator.cpp">
+      <Filter>HTTPClient\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPStream.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HTTPStreamFactory.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\HostEntry.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\ICMPClient.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\ICMPEventArgs.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\ICMPPacket.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\ICMPPacketImpl.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\ICMPSocket.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\ICMPSocketImpl.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\ICMPv4PacketImpl.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\IPAddress.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\IPAddressImpl.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\MailMessage.cpp">
+      <Filter>Mail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\MailRecipient.cpp">
+      <Filter>Mail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\MailStream.cpp">
+      <Filter>Mail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\MediaType.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\MessageHeader.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\MulticastSocket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\MultipartReader.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\MultipartWriter.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\NTPClient.cpp">
+      <Filter>NTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\NTPEventArgs.cpp">
+      <Filter>NTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\NTPPacket.cpp">
+      <Filter>NTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\NameValueCollection.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\Net.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\NetException.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\NetworkInterface.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\NullPartHandler.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\OAuth10Credentials.cpp">
+      <Filter>OAuth\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\OAuth20Credentials.cpp">
+      <Filter>OAuth\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\POP3ClientSession.cpp">
+      <Filter>Mail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\PartHandler.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\PartSource.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\PartStore.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\PollSet.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\QuotedPrintableDecoder.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\QuotedPrintableEncoder.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\RawSocket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\RawSocketImpl.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\RemoteSyslogChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\RemoteSyslogListener.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\SMTPChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\SMTPClientSession.cpp">
+      <Filter>Mail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\ServerSocket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\ServerSocketImpl.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\Socket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\SocketAddress.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\SocketAddressImpl.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\SocketImpl.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\SocketNotification.cpp">
+      <Filter>Reactor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\SocketNotifier.cpp">
+      <Filter>Reactor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\SocketReactor.cpp">
+      <Filter>Reactor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\SocketStream.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\StreamSocket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\StreamSocketImpl.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\StringPartSource.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\TCPServer.cpp">
+      <Filter>TCPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\TCPServerConnection.cpp">
+      <Filter>TCPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\TCPServerConnectionFactory.cpp">
+      <Filter>TCPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\TCPServerDispatcher.cpp">
+      <Filter>TCPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\TCPServerParams.cpp">
+      <Filter>TCPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\WebSocket.cpp">
+      <Filter>WebSocket\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\src\WebSocketImpl.cpp">
+      <Filter>WebSocket\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\AbstractHTTPRequestHandler.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\DNS.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\DatagramSocket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\DatagramSocketImpl.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\DialogSocket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\FTPClientSession.h">
+      <Filter>FTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\FTPStreamFactory.h">
+      <Filter>FTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\FilePartSource.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTMLForm.h">
+      <Filter>HTML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPAuthenticationParams.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPBasicCredentials.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPBasicStreamBuf.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPBufferAllocator.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPChunkedStream.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPClientSession.h">
+      <Filter>HTTPClient\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPCookie.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPCredentials.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPDigestCredentials.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPFixedLengthStream.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPHeaderStream.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPIOStream.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPMessage.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPRequest.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPRequestHandler.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPRequestHandlerFactory.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPResponse.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPServer.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPServerConnection.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPServerConnectionFactory.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPServerParams.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPServerRequest.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPServerRequestImpl.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPServerResponse.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPServerResponseImpl.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPServerSession.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPSession.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPSessionFactory.h">
+      <Filter>HTTPClient\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPSessionInstantiator.h">
+      <Filter>HTTPClient\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPStream.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HTTPStreamFactory.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\HostEntry.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\ICMPClient.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\ICMPEventArgs.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\ICMPPacket.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\ICMPPacketImpl.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\ICMPSocket.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\ICMPSocketImpl.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\ICMPv4PacketImpl.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\IPAddress.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\IPAddressImpl.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\MailMessage.h">
+      <Filter>Mail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\MailRecipient.h">
+      <Filter>Mail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\MailStream.h">
+      <Filter>Mail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\MediaType.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\MessageHeader.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\MulticastSocket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\MultipartReader.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\MultipartWriter.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\NTPClient.h">
+      <Filter>NTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\NTPEventArgs.h">
+      <Filter>NTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\NTPPacket.h">
+      <Filter>NTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\NameValueCollection.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\Net.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\NetException.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\NetworkInterface.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\NullPartHandler.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\OAuth10Credentials.h">
+      <Filter>OAuth\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\OAuth20Credentials.h">
+      <Filter>OAuth\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\POP3ClientSession.h">
+      <Filter>Mail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\ParallelSocketAcceptor.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\ParallelSocketReactor.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\PartHandler.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\PartSource.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\PartStore.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\PollSet.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\QuotedPrintableDecoder.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\QuotedPrintableEncoder.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\RawSocket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\RawSocketImpl.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\RemoteSyslogChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\RemoteSyslogListener.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\SMTPChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\SMTPClientSession.h">
+      <Filter>Mail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\ServerSocket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\ServerSocketImpl.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\Socket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\SocketAcceptor.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\SocketAddress.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\SocketAddressImpl.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\SocketConnector.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\SocketDefs.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\SocketImpl.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\SocketNotification.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\SocketNotifier.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\SocketReactor.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\SocketStream.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\StreamSocket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\StreamSocketImpl.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\StringPartSource.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\TCPServer.h">
+      <Filter>TCPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\TCPServerConnection.h">
+      <Filter>TCPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\TCPServerConnectionFactory.h">
+      <Filter>TCPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\TCPServerDispatcher.h">
+      <Filter>TCPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\TCPServerParams.h">
+      <Filter>TCPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\WebSocket.h">
+      <Filter>WebSocket\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\include\Poco\Net\WebSocketImpl.h">
+      <Filter>WebSocket\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Net\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FTP">
+      <UniqueIdentifier>{FE004AC0-6B29-3B12-AEAB-55B4F7F3C956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FTP\Header Files">
+      <UniqueIdentifier>{90AE6D60-683D-3952-9F76-764B59E01FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FTP\Source Files">
+      <UniqueIdentifier>{6C5820CE-A51E-3246-BAF6-E79D5AD867C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTML">
+      <UniqueIdentifier>{67163809-D6E7-3407-9A4E-8EA2E0CA02F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTML\Header Files">
+      <UniqueIdentifier>{64495E37-0D51-3B00-B33D-FAE0DF9F1641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTML\Source Files">
+      <UniqueIdentifier>{A4CAD363-3157-32AA-BEB1-CFD021F07DC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP">
+      <UniqueIdentifier>{2932BF1F-BF16-336E-9453-DE1CC2924FD4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPClient">
+      <UniqueIdentifier>{287296C8-940B-34D9-A5FD-D042E0D3491F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPClient\Header Files">
+      <UniqueIdentifier>{B6DF42AD-8379-3B9C-8C30-847BEFA129DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPClient\Source Files">
+      <UniqueIdentifier>{7373CE1E-3E36-3BFE-A691-2F6249D659FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPServer">
+      <UniqueIdentifier>{C37A728B-A626-3BB8-BE67-DB960879570D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPServer\Header Files">
+      <UniqueIdentifier>{AAC4B37B-2518-3EDB-9AB4-9930AB23E2F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPServer\Source Files">
+      <UniqueIdentifier>{C9CEC004-E696-3C69-BA2B-210DABB2D070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Header Files">
+      <UniqueIdentifier>{75173E9F-8B30-36D1-9A21-BEE9719850A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Source Files">
+      <UniqueIdentifier>{EA0C32F4-A4C1-38CB-A23B-7AE8431D17E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ICMP">
+      <UniqueIdentifier>{71862DD2-A9C8-39FA-9E65-C0715C9974F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ICMP\Header Files">
+      <UniqueIdentifier>{20426D9C-CE34-3F96-BC3C-2DD371E57842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ICMP\Source Files">
+      <UniqueIdentifier>{05273D7D-E130-3176-9EEC-C402BCE0997C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{402A5EC2-A5C9-38EA-A76B-6C60D86ADB25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging\Header Files">
+      <UniqueIdentifier>{728731A4-2635-3685-9832-B946C97ACEA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging\Source Files">
+      <UniqueIdentifier>{3260CADF-AFAE-3D87-8D22-21DF54CB58B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mail">
+      <UniqueIdentifier>{523D6D59-169E-3359-AAC1-A3FCB150916E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mail\Header Files">
+      <UniqueIdentifier>{48187EB1-7ADF-3066-9799-F8465C82018B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mail\Source Files">
+      <UniqueIdentifier>{E9354EB3-BB74-372C-9322-24CE93A9375F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages">
+      <UniqueIdentifier>{224D0594-F244-3F66-BC82-F3AD11352F9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages\Header Files">
+      <UniqueIdentifier>{32CBB24A-C1D6-3CCE-A811-A80A2BC5438D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages\Source Files">
+      <UniqueIdentifier>{68337557-4FCF-3D22-AC26-FD43BE235887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTP">
+      <UniqueIdentifier>{19BE3436-8277-3805-A489-3D784D0C3B2F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTP\Header Files">
+      <UniqueIdentifier>{047A8955-C1F9-366D-825B-3DB78F08469A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTP\Source Files">
+      <UniqueIdentifier>{A061CC6C-62AE-349C-96E5-45AF2BF4CFBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetCore">
+      <UniqueIdentifier>{5C500847-7B33-3DD8-BD17-F6272F636BAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetCore\Header Files">
+      <UniqueIdentifier>{905D7601-F85F-399E-BA89-CFC3305B8A6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetCore\Source Files">
+      <UniqueIdentifier>{9929FAD9-9FE1-3EC7-9A83-F52BFC1BDAA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OAuth">
+      <UniqueIdentifier>{EF4CC955-2277-3100-B053-99402F3922EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OAuth\Header Files">
+      <UniqueIdentifier>{2E8F30DA-0EFA-3082-AF50-BDC3853872B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OAuth\Source Files">
+      <UniqueIdentifier>{9D724007-A273-37AE-92FD-78698CF8FC19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reactor">
+      <UniqueIdentifier>{336E007E-DFF9-328D-AE36-53357009E8D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reactor\Header Files">
+      <UniqueIdentifier>{B6BE208F-E54C-34C4-9E75-4DF159DCE5B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reactor\Source Files">
+      <UniqueIdentifier>{0CC7E8D7-41DA-3A7D-9615-63600DD3196B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sockets">
+      <UniqueIdentifier>{7C1C8807-42E3-37A2-8918-67138CA1B114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sockets\Header Files">
+      <UniqueIdentifier>{37EB5EF5-A629-3D83-8BF4-115EE950B9CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sockets\Source Files">
+      <UniqueIdentifier>{4D41159D-C811-34A2-A781-1C5BAF1FD6EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TCPServer">
+      <UniqueIdentifier>{E55D63F3-9381-3F4D-9DCB-7E66EAB450AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TCPServer\Header Files">
+      <UniqueIdentifier>{D713271B-459B-33F1-A060-6C27537CBD77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TCPServer\Source Files">
+      <UniqueIdentifier>{8BD086D9-17E5-38E2-B5E0-6334273F9467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebSocket">
+      <UniqueIdentifier>{C6426E9E-2358-38C0-B6F7-FA7F0A25CC96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebSocket\Header Files">
+      <UniqueIdentifier>{10BD5C7C-2B40-392B-A554-5259256534AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebSocket\Source Files">
+      <UniqueIdentifier>{A3FD1D78-7A38-35F6-A510-D6563F6C396A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

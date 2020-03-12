@@ -1,0 +1,18 @@
+﻿  Building Custom Rule C:/Users/ASUS/Desktop/distfs-master/src/CMakeLists.txt
+  access_server.cpp
+C:\Users\ASUS\Desktop\distfs-master\src\access_server.cpp(108): warning C4244: 'argument': conversion from 'int64_t' to 'const int', possible loss of data
+C:\Users\ASUS\Desktop\distfs-master\src\access_server.cpp(118): warning C4244: 'argument': conversion from 'int64_t' to 'const int', possible loss of data
+C:\Users\ASUS\Desktop\distfs-master\src\access_server.cpp(203): warning C4244: 'argument': conversion from 'int64_t' to 'const int', possible loss of data
+C:\Users\ASUS\Desktop\distfs-master\src\access_server.cpp(213): warning C4244: 'argument': conversion from 'int64_t' to 'const int', possible loss of data
+C:\Users\ASUS\Desktop\distfs-master\src\access_server.cpp(235): warning C4244: 'argument': conversion from 'int64_t' to 'unsigned int', possible loss of data
+C:\Users\ASUS\Desktop\distfs-master\src\access_server.cpp(236): warning C4244: 'argument': conversion from 'int64_t' to 'const unsigned int', possible loss of data
+C:\Users\ASUS\Desktop\distfs-master\src\access_server.cpp(237): warning C4244: 'argument': conversion from 'int64_t' to 'const unsigned int', possible loss of data
+C:\Users\ASUS\Desktop\distfs-master\src\access_server.cpp(282): warning C4244: 'argument': conversion from 'int64_t' to 'const unsigned int', possible loss of data
+C:\Users\ASUS\Desktop\distfs-master\src\access_server.cpp(283): warning C4244: 'argument': conversion from 'int64_t' to 'const unsigned int', possible loss of data
+C:\Users\ASUS\Desktop\distfs-master\src\access_server.cpp(333): warning C4244: 'initializing': conversion from 'int64_t' to 'int', possible loss of data
+  access_server_main.cpp
+  common.cpp
+C:\Users\ASUS\Desktop\distfs-master\src\common.cpp(397): warning C4101: 'copier': unreferenced local variable
+  Generating Code...
+c:\users\asus\desktop\distfs-master\src\access_server.cpp(455): warning C4715: 'DistFS::AccessServerRequestHandlerFactory::createRequestHandler': not all control paths return a value
+  difsas.vcxproj -> C:\Users\ASUS\Desktop\distfs-master\build\DistFS\Debug\difsas.exe

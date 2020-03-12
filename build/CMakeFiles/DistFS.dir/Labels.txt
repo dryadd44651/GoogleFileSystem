@@ -1,0 +1,13 @@
+# Target labels
+ DistFS
+# Source files and their labels
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/DistFS
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/2744977c33f3f69d034f4b35c42cb9e2/DistFS.rule
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/a7ab44a582d4fb99effe8ca958806915/DistFS-complete.rule
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/1c17ae14737de0226e4fc55b12013014/DistFS-install.rule
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/1c17ae14737de0226e4fc55b12013014/DistFS-mkdir.rule
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/1c17ae14737de0226e4fc55b12013014/DistFS-download.rule
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/1c17ae14737de0226e4fc55b12013014/DistFS-update.rule
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/1c17ae14737de0226e4fc55b12013014/DistFS-patch.rule
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/1c17ae14737de0226e4fc55b12013014/DistFS-configure.rule
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/1c17ae14737de0226e4fc55b12013014/DistFS-build.rule

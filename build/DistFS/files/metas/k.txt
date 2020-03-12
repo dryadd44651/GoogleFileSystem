@@ -1,0 +1,9 @@
+{
+    "chunk_size" : 4096,
+    "chunks" : [
+        "fcc544fc-13c5-11ea-80a7-a402b9ca10fb"
+    ],
+    "filename" : "k.txt",
+    "length" : 17,
+    "replica_count" : 3
+}

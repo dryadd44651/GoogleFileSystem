@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\poco\CMakeFiles\16cb39b979e270f0d1e24223fa1d5756\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FCC619BF-5987-3673-BB59-D2455319AF5F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

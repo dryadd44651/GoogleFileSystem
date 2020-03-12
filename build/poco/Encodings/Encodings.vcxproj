@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FADDFA08-2F73-356B-A4E7-460E546A6894}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Encodings</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Encodings.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PocoEncodingsmdd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Encodings.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PocoEncodingsmd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Encodings.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">PocoEncodingsmd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Encodings.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">PocoEncodingsmd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;POCO_STATIC;POCO_NO_AUTOMATIC_LIBS;POCO_ENABLE_CPP11;POCO_ENABLE_CPP14;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;POCO_STATIC;POCO_NO_AUTOMATIC_LIBS;POCO_ENABLE_CPP11;POCO_ENABLE_CPP14;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_STATIC;POCO_NO_AUTOMATIC_LIBS;POCO_ENABLE_CPP11;POCO_ENABLE_CPP14;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_STATIC;POCO_NO_AUTOMATIC_LIBS;POCO_ENABLE_CPP11;POCO_ENABLE_CPP14;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_STATIC;POCO_NO_AUTOMATIC_LIBS;POCO_ENABLE_CPP11;POCO_ENABLE_CPP14;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_STATIC;POCO_NO_AUTOMATIC_LIBS;POCO_ENABLE_CPP11;POCO_ENABLE_CPP14;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_STATIC;POCO_NO_AUTOMATIC_LIBS;POCO_ENABLE_CPP11;POCO_ENABLE_CPP14;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_STATIC;POCO_NO_AUTOMATIC_LIBS;POCO_ENABLE_CPP11;POCO_ENABLE_CPP14;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src;C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/ASUS/Desktop/distfs-master/external/poco-1.9.3/Encodings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/ASUS/Desktop/distfs-master/external/poco-1.9.3 -BC:/Users/ASUS/Desktop/distfs-master/build/poco --check-stamp-file C:/Users/ASUS/Desktop/distfs-master/build/poco/Encodings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\cmake\PocoEncodingsConfig.cmake;D:\CMake\share\cmake-3.16\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\Encodings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/ASUS/Desktop/distfs-master/external/poco-1.9.3/Encodings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/ASUS/Desktop/distfs-master/external/poco-1.9.3 -BC:/Users/ASUS/Desktop/distfs-master/build/poco --check-stamp-file C:/Users/ASUS/Desktop/distfs-master/build/poco/Encodings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\cmake\PocoEncodingsConfig.cmake;D:\CMake\share\cmake-3.16\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\Encodings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/ASUS/Desktop/distfs-master/external/poco-1.9.3/Encodings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/ASUS/Desktop/distfs-master/external/poco-1.9.3 -BC:/Users/ASUS/Desktop/distfs-master/build/poco --check-stamp-file C:/Users/ASUS/Desktop/distfs-master/build/poco/Encodings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\cmake\PocoEncodingsConfig.cmake;D:\CMake\share\cmake-3.16\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\Encodings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/ASUS/Desktop/distfs-master/external/poco-1.9.3/Encodings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/ASUS/Desktop/distfs-master/external/poco-1.9.3 -BC:/Users/ASUS/Desktop/distfs-master/build/poco --check-stamp-file C:/Users/ASUS/Desktop/distfs-master/build/poco/Encodings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\cmake\PocoEncodingsConfig.cmake;D:\CMake\share\cmake-3.16\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\Encodings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\DoubleByteEncoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\Encodings.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\ISO8859_10Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\ISO8859_11Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\ISO8859_13Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\ISO8859_14Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\ISO8859_16Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\ISO8859_3Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\ISO8859_4Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\ISO8859_5Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\ISO8859_6Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\ISO8859_7Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\ISO8859_8Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\ISO8859_9Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\Windows1253Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\Windows1254Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\Windows1255Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\Windows1256Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\Windows1257Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\Windows1258Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\Windows874Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\Windows932Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\Windows936Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\Windows949Encoding.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\src\Windows950Encoding.cpp" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\DoubleByteEncoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\Encodings.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\ISO8859_10Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\ISO8859_11Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\ISO8859_13Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\ISO8859_14Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\ISO8859_16Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\ISO8859_3Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\ISO8859_4Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\ISO8859_5Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\ISO8859_6Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\ISO8859_7Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\ISO8859_8Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\ISO8859_9Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\Windows1253Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\Windows1254Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\Windows1255Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\Windows1256Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\Windows1257Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\Windows1258Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\Windows874Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\Windows932Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\Windows936Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\Windows949Encoding.h" />
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Encodings\include\Poco\Windows950Encoding.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ASUS\Desktop\distfs-master\build\poco\ZERO_CHECK.vcxproj">
+      <Project>{DA01415C-E66B-3845-9518-2073957F8D34}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Desktop\distfs-master\build\poco\Foundation\Foundation.vcxproj">
+      <Project>{68999A7F-E35F-3E8D-849C-A1E2EB36689D}</Project>
+      <Name>Foundation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

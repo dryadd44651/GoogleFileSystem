@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\src\Binder.cpp">
+      <Filter>SQLite\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\src\Connector.cpp">
+      <Filter>SQLite\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\src\Extractor.cpp">
+      <Filter>SQLite\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\src\Notifier.cpp">
+      <Filter>SQLite\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\src\SQLiteException.cpp">
+      <Filter>SQLite\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\src\SQLiteStatementImpl.cpp">
+      <Filter>SQLite\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\src\SessionImpl.cpp">
+      <Filter>SQLite\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\src\Utility.cpp">
+      <Filter>SQLite\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\src\sqlite3.c">
+      <Filter>sqlite3\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\include\Poco\Data\SQLite\Binder.h">
+      <Filter>SQLite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\include\Poco\Data\SQLite\Connector.h">
+      <Filter>SQLite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\include\Poco\Data\SQLite\Extractor.h">
+      <Filter>SQLite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\include\Poco\Data\SQLite\Notifier.h">
+      <Filter>SQLite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\include\Poco\Data\SQLite\SQLite.h">
+      <Filter>SQLite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\include\Poco\Data\SQLite\SQLiteException.h">
+      <Filter>SQLite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\include\Poco\Data\SQLite\SQLiteStatementImpl.h">
+      <Filter>SQLite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\include\Poco\Data\SQLite\SessionImpl.h">
+      <Filter>SQLite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\include\Poco\Data\SQLite\Utility.h">
+      <Filter>SQLite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\src\sqlite3.h">
+      <Filter>sqlite3\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Data\SQLite\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SQLite">
+      <UniqueIdentifier>{D89F45A8-667D-32E6-B204-198C3864DFBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SQLite\Header Files">
+      <UniqueIdentifier>{3AAB56AC-9013-3600-93FE-07E4AB4F5EFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SQLite\Source Files">
+      <UniqueIdentifier>{B2711C10-348F-3E49-9867-9842AB9B73B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sqlite3">
+      <UniqueIdentifier>{B1386270-5C52-3938-9303-520D0FEBA4AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sqlite3\Header Files">
+      <UniqueIdentifier>{DEB19BD7-B974-3567-9F5A-5540114ED754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sqlite3\Source Files">
+      <UniqueIdentifier>{C6F5667D-764D-3DEB-8D34-6BB838BF76EF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\Add.cpp">
+      <Filter>Manipulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\AutoDetectStream.cpp">
+      <Filter>Zip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\Compress.cpp">
+      <Filter>Zip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\Decompress.cpp">
+      <Filter>Zip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\Delete.cpp">
+      <Filter>Manipulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\Keep.cpp">
+      <Filter>Manipulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\ParseCallback.cpp">
+      <Filter>Zip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\PartialStream.cpp">
+      <Filter>Zip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\Rename.cpp">
+      <Filter>Manipulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\Replace.cpp">
+      <Filter>Manipulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\SkipCallback.cpp">
+      <Filter>Zip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\ZipArchive.cpp">
+      <Filter>Zip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\ZipArchiveInfo.cpp">
+      <Filter>Zip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\ZipCommon.cpp">
+      <Filter>Zip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\ZipDataInfo.cpp">
+      <Filter>Zip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\ZipException.cpp">
+      <Filter>Zip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\ZipFileInfo.cpp">
+      <Filter>Zip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\ZipLocalFileHeader.cpp">
+      <Filter>Zip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\ZipManipulator.cpp">
+      <Filter>Manipulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\ZipOperation.cpp">
+      <Filter>Manipulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\ZipStream.cpp">
+      <Filter>Zip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\src\ZipUtil.cpp">
+      <Filter>Zip\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\Add.h">
+      <Filter>Manipulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\AutoDetectStream.h">
+      <Filter>Zip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\Compress.h">
+      <Filter>Zip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\Decompress.h">
+      <Filter>Zip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\Delete.h">
+      <Filter>Manipulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\Keep.h">
+      <Filter>Manipulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\ParseCallback.h">
+      <Filter>Zip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\PartialStream.h">
+      <Filter>Zip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\Rename.h">
+      <Filter>Manipulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\Replace.h">
+      <Filter>Manipulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\SkipCallback.h">
+      <Filter>Zip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\Zip.h">
+      <Filter>Zip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\ZipArchive.h">
+      <Filter>Zip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\ZipArchiveInfo.h">
+      <Filter>Zip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\ZipCommon.h">
+      <Filter>Zip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\ZipDataInfo.h">
+      <Filter>Zip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\ZipException.h">
+      <Filter>Zip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\ZipFileInfo.h">
+      <Filter>Zip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\ZipLocalFileHeader.h">
+      <Filter>Zip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\ZipManipulator.h">
+      <Filter>Manipulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\ZipOperation.h">
+      <Filter>Manipulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\ZipStream.h">
+      <Filter>Zip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\include\Poco\Zip\ZipUtil.h">
+      <Filter>Zip\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Zip\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Manipulation">
+      <UniqueIdentifier>{DC5D04ED-330B-3CA3-AC73-80815D6C4318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manipulation\Header Files">
+      <UniqueIdentifier>{E44ED2A8-C24F-3795-B0E9-EBE14140745A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manipulation\Source Files">
+      <UniqueIdentifier>{EDF21B27-238C-3E74-BE47-CDBDF4C71070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zip">
+      <UniqueIdentifier>{BE125EE6-8FB7-38FC-8B8A-90A2BD71D85D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zip\Header Files">
+      <UniqueIdentifier>{29FF037C-90D3-37C0-A52F-1289609C75EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zip\Source Files">
+      <UniqueIdentifier>{362E1713-41A7-3E97-A647-7E1945534A54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/poco"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/2744977c33f3f69d034f4b35c42cb9e2/poco.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/a7ab44a582d4fb99effe8ca958806915/poco-complete.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/731ee8769ba3dbe5ea0d66d8363b729f/poco-install.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/731ee8769ba3dbe5ea0d66d8363b729f/poco-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/731ee8769ba3dbe5ea0d66d8363b729f/poco-download.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/731ee8769ba3dbe5ea0d66d8363b729f/poco-update.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/731ee8769ba3dbe5ea0d66d8363b729f/poco-patch.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/731ee8769ba3dbe5ea0d66d8363b729f/poco-configure.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/731ee8769ba3dbe5ea0d66d8363b729f/poco-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"poco"
+		],
+		"name" : "poco"
+	}
+}

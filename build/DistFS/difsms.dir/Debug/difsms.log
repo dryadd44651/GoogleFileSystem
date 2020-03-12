@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  meta_server.cpp
+C:\Users\ASUS\Desktop\distfs-master\src\meta_server.cpp(77): warning C4244: '=': conversion from '_Ty2' to 'int', possible loss of data
+          with
+          [
+              _Ty2=int64_t
+          ]
+  difsms.vcxproj -> C:\Users\ASUS\Desktop\distfs-master\build\DistFS\Debug\difsms.exe

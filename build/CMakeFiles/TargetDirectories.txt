@@ -1,0 +1,5 @@
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/DistFS.dir
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/poco.dir
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/DistFSAll.dir
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/ZERO_CHECK.dir

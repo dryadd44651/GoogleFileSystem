@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\src\Array.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\src\Handler.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\src\JSONException.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\src\Object.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\src\ParseHandler.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\src\Parser.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\src\ParserImpl.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\src\PrintHandler.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\src\Query.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\src\Stringifier.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\src\Template.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\src\TemplateCache.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\src\pdjson.c">
+      <Filter>pdjson\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\include\Poco\JSON\Array.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\include\Poco\JSON\Handler.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\include\Poco\JSON\JSON.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\include\Poco\JSON\JSONException.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\include\Poco\JSON\Object.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\include\Poco\JSON\ParseHandler.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\include\Poco\JSON\Parser.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\include\Poco\JSON\ParserImpl.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\include\Poco\JSON\PrintHandler.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\include\Poco\JSON\Query.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\include\Poco\JSON\Stringifier.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\include\Poco\JSON\Template.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\include\Poco\JSON\TemplateCache.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\JSON\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{29EC9EBB-AE91-3820-BC44-BE83C1FF444E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON\Header Files">
+      <UniqueIdentifier>{28CFF937-A7D1-3F11-85F8-9053D4CD3E7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON\Source Files">
+      <UniqueIdentifier>{F669F0F1-3E89-3D8A-8CC5-B01D329073CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pdjson">
+      <UniqueIdentifier>{55ECD76C-58FC-357D-83A2-450A10C979CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pdjson\Source Files">
+      <UniqueIdentifier>{D8C2CA36-74AB-3BBC-B06C-9B04B636FB15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,836 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FBDDD986-D39E-3CEE-9FDB-C6488104B5BC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>DistFS</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\1c17ae14737de0226e4fc55b12013014\DistFS-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating directories for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/src
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Creating directories for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/src
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Creating directories for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/src
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Creating directories for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/src
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\1c17ae14737de0226e4fc55b12013014\DistFS-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No download step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No download step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No download step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No download step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\1c17ae14737de0226e4fc55b12013014\DistFS-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No update step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No update step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No update step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No update step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\1c17ae14737de0226e4fc55b12013014\DistFS-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No patch step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No patch step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No patch step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No patch step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\1c17ae14737de0226e4fc55b12013014\DistFS-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing configure step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\DistFS
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -DPoco_DIR:PATH=C:/Users/ASUS/Desktop/distfs-master/build/poco/Poco "-GVisual Studio 15 2017" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2017/Community" C:/Users/ASUS/Desktop/distfs-master/src
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\tmp\DistFS-cfgcmd.txt;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-update;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing configure step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\DistFS
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -DPoco_DIR:PATH=C:/Users/ASUS/Desktop/distfs-master/build/poco/Poco "-GVisual Studio 15 2017" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2017/Community" C:/Users/ASUS/Desktop/distfs-master/src
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\tmp\DistFS-cfgcmd.txt;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-update;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing configure step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\DistFS
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -DPoco_DIR:PATH=C:/Users/ASUS/Desktop/distfs-master/build/poco/Poco "-GVisual Studio 15 2017" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2017/Community" C:/Users/ASUS/Desktop/distfs-master/src
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\tmp\DistFS-cfgcmd.txt;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-update;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing configure step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\DistFS
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -DPoco_DIR:PATH=C:/Users/ASUS/Desktop/distfs-master/build/poco/Poco "-GVisual Studio 15 2017" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2017/Community" C:/Users/ASUS/Desktop/distfs-master/src
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\tmp\DistFS-cfgcmd.txt;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-update;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\1c17ae14737de0226e4fc55b12013014\DistFS-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing build step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\DistFS
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe --build . --config Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing build step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\DistFS
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe --build . --config Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing build step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\DistFS
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe --build . --config MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing build step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\DistFS
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe --build . --config RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\1c17ae14737de0226e4fc55b12013014\DistFS-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No install step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\DistFS
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No install step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\DistFS
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No install step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\DistFS
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No install step for 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\DistFS
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\a7ab44a582d4fb99effe8ca958806915\DistFS-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Completed 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/$(Configuration)/DistFS-complete
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-install;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-mkdir;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-download;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-update;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-patch;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-configure;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\$(Configuration)\DistFS-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Completed 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/$(Configuration)/DistFS-complete
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-install;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-mkdir;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-download;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-update;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-patch;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-configure;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\$(Configuration)\DistFS-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Completed 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/$(Configuration)/DistFS-complete
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-install;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-mkdir;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-download;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-update;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-patch;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-configure;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\$(Configuration)\DistFS-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Completed 'DistFS'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/$(Configuration)/DistFS-complete
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/DistFS-prefix/src/DistFS-stamp/$(Configuration)/DistFS-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-install;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-mkdir;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-download;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-update;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-patch;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-configure;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\src\DistFS-stamp\$(Configuration)\DistFS-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\$(Configuration)\DistFS-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\2744977c33f3f69d034f4b35c42cb9e2\DistFS.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\$(Configuration)\DistFS-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\DistFS</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\$(Configuration)\DistFS-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\DistFS</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\$(Configuration)\DistFS-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\DistFS</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\$(Configuration)\DistFS-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\DistFS</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/ASUS/Desktop/distfs-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/ASUS/Desktop/distfs-master -BC:/Users/ASUS/Desktop/distfs-master/build --check-stamp-file C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeCCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeCXXCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeRCCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeSystem.cmake;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\tmp\DistFS-cfgcmd.txt.in;C:\Users\ASUS\Desktop\distfs-master\build\poco\tmp\poco-cfgcmd.txt.in;D:\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.16\Modules\ExternalProject.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/ASUS/Desktop/distfs-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/ASUS/Desktop/distfs-master -BC:/Users/ASUS/Desktop/distfs-master/build --check-stamp-file C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeCCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeCXXCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeRCCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeSystem.cmake;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\tmp\DistFS-cfgcmd.txt.in;C:\Users\ASUS\Desktop\distfs-master\build\poco\tmp\poco-cfgcmd.txt.in;D:\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.16\Modules\ExternalProject.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/ASUS/Desktop/distfs-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/ASUS/Desktop/distfs-master -BC:/Users/ASUS/Desktop/distfs-master/build --check-stamp-file C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeCCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeCXXCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeRCCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeSystem.cmake;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\tmp\DistFS-cfgcmd.txt.in;C:\Users\ASUS\Desktop\distfs-master\build\poco\tmp\poco-cfgcmd.txt.in;D:\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.16\Modules\ExternalProject.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/ASUS/Desktop/distfs-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/ASUS/Desktop/distfs-master -BC:/Users/ASUS/Desktop/distfs-master/build --check-stamp-file C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeCCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeCXXCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeRCCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeSystem.cmake;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\tmp\DistFS-cfgcmd.txt.in;C:\Users\ASUS\Desktop\distfs-master\build\poco\tmp\poco-cfgcmd.txt.in;D:\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.16\Modules\ExternalProject.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\DistFS" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ASUS\Desktop\distfs-master\build\ZERO_CHECK.vcxproj">
+      <Project>{03B5318D-31F4-36FF-8F95-812266F6EF22}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Desktop\distfs-master\build\poco.vcxproj">
+      <Project>{3321C5A9-3273-3773-ABBA-BDE794EC62AF}</Project>
+      <Name>poco</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

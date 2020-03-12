@@ -1,0 +1,13 @@
+{
+    "chunk_servers": [
+        {
+            "id": "DESKTOP-U4MPKV6:21000",
+            "address": "127.0.0.1:21000"
+        },
+		{
+			"id": "DESKTOP-U4MPKV6:23000",
+            "address": "127.0.0.1:23000"
+		}
+		
+    ]
+}

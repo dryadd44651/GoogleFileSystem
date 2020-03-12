@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\731ee8769ba3dbe5ea0d66d8363b729f\poco-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\731ee8769ba3dbe5ea0d66d8363b729f\poco-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\731ee8769ba3dbe5ea0d66d8363b729f\poco-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\731ee8769ba3dbe5ea0d66d8363b729f\poco-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\731ee8769ba3dbe5ea0d66d8363b729f\poco-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\731ee8769ba3dbe5ea0d66d8363b729f\poco-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\731ee8769ba3dbe5ea0d66d8363b729f\poco-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\a7ab44a582d4fb99effe8ca958806915\poco-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\2744977c33f3f69d034f4b35c42cb9e2\poco.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\poco" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D3DAF607-A6B0-339A-A74B-0D279CA6B1B1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

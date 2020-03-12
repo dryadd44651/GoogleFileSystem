@@ -1,0 +1,838 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3321C5A9-3273-3773-ABBA-BDE794EC62AF}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>poco</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\731ee8769ba3dbe5ea0d66d8363b729f\poco-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating directories for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/external/poco-1.9.3
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco/tmp
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco/src
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Creating directories for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/external/poco-1.9.3
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco/tmp
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco/src
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Creating directories for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/external/poco-1.9.3
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco/tmp
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco/src
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Creating directories for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/external/poco-1.9.3
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco/tmp
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco/src
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\731ee8769ba3dbe5ea0d66d8363b729f\poco-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No download step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No download step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No download step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No download step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\731ee8769ba3dbe5ea0d66d8363b729f\poco-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No update step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No update step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No update step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No update step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\731ee8769ba3dbe5ea0d66d8363b729f\poco-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No patch step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No patch step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No patch step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No patch step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\731ee8769ba3dbe5ea0d66d8363b729f\poco-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing configure step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\poco
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -DENABLE_MONGODB=OFF -DENABLE_REDIS=OFF -DENABLE_DATA_ODBC=OFF -DENABLE_DATA_MYSQL=OFF -DENABLE_PAGECOMPILER=OFF -DENABLE_PAGECOMPILER_FILE2PAGE=OFF -DPOCO_STATIC=ON "-GVisual Studio 15 2017" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2017/Community" C:/Users/ASUS/Desktop/distfs-master/external/poco-1.9.3
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\tmp\poco-cfgcmd.txt;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-update;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing configure step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\poco
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -DENABLE_MONGODB=OFF -DENABLE_REDIS=OFF -DENABLE_DATA_ODBC=OFF -DENABLE_DATA_MYSQL=OFF -DENABLE_PAGECOMPILER=OFF -DENABLE_PAGECOMPILER_FILE2PAGE=OFF -DPOCO_STATIC=ON "-GVisual Studio 15 2017" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2017/Community" C:/Users/ASUS/Desktop/distfs-master/external/poco-1.9.3
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\tmp\poco-cfgcmd.txt;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-update;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing configure step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\poco
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -DENABLE_MONGODB=OFF -DENABLE_REDIS=OFF -DENABLE_DATA_ODBC=OFF -DENABLE_DATA_MYSQL=OFF -DENABLE_PAGECOMPILER=OFF -DENABLE_PAGECOMPILER_FILE2PAGE=OFF -DPOCO_STATIC=ON "-GVisual Studio 15 2017" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2017/Community" C:/Users/ASUS/Desktop/distfs-master/external/poco-1.9.3
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\tmp\poco-cfgcmd.txt;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-update;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing configure step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\poco
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -DENABLE_MONGODB=OFF -DENABLE_REDIS=OFF -DENABLE_DATA_ODBC=OFF -DENABLE_DATA_MYSQL=OFF -DENABLE_PAGECOMPILER=OFF -DENABLE_PAGECOMPILER_FILE2PAGE=OFF -DPOCO_STATIC=ON "-GVisual Studio 15 2017" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2017/Community" C:/Users/ASUS/Desktop/distfs-master/external/poco-1.9.3
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\tmp\poco-cfgcmd.txt;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-update;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\731ee8769ba3dbe5ea0d66d8363b729f\poco-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing build step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\poco
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe --build . --config Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing build step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\poco
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe --build . --config Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing build step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\poco
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe --build . --config MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing build step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\poco
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe --build . --config RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\731ee8769ba3dbe5ea0d66d8363b729f\poco-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No install step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\poco
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No install step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\poco
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No install step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\poco
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No install step for 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd C:\Users\ASUS\Desktop\distfs-master\build\poco
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\a7ab44a582d4fb99effe8ca958806915\poco-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Completed 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/$(Configuration)/poco-complete
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-install;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-mkdir;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-download;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-update;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-patch;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-configure;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\$(Configuration)\poco-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Completed 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/$(Configuration)/poco-complete
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-install;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-mkdir;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-download;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-update;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-patch;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-configure;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\$(Configuration)\poco-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Completed 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/$(Configuration)/poco-complete
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-install;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-mkdir;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-download;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-update;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-patch;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-configure;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\$(Configuration)\poco-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Completed 'poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -E make_directory C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/$(Configuration)/poco-complete
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch C:/Users/ASUS/Desktop/distfs-master/build/poco/src/poco-stamp/$(Configuration)/poco-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-install;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-mkdir;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-download;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-update;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-patch;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-configure;C:\Users\ASUS\Desktop\distfs-master\build\poco\src\poco-stamp\$(Configuration)\poco-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\$(Configuration)\poco-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\2744977c33f3f69d034f4b35c42cb9e2\poco.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\$(Configuration)\poco-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\poco</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\$(Configuration)\poco-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\poco</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\$(Configuration)\poco-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\poco</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\$(Configuration)\poco-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\poco</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/ASUS/Desktop/distfs-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/ASUS/Desktop/distfs-master -BC:/Users/ASUS/Desktop/distfs-master/build --check-stamp-file C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeCCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeCXXCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeRCCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeSystem.cmake;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\tmp\DistFS-cfgcmd.txt.in;C:\Users\ASUS\Desktop\distfs-master\build\poco\tmp\poco-cfgcmd.txt.in;D:\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.16\Modules\ExternalProject.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/ASUS/Desktop/distfs-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/ASUS/Desktop/distfs-master -BC:/Users/ASUS/Desktop/distfs-master/build --check-stamp-file C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeCCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeCXXCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeRCCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeSystem.cmake;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\tmp\DistFS-cfgcmd.txt.in;C:\Users\ASUS\Desktop\distfs-master\build\poco\tmp\poco-cfgcmd.txt.in;D:\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.16\Modules\ExternalProject.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/ASUS/Desktop/distfs-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/ASUS/Desktop/distfs-master -BC:/Users/ASUS/Desktop/distfs-master/build --check-stamp-file C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeCCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeCXXCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeRCCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeSystem.cmake;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\tmp\DistFS-cfgcmd.txt.in;C:\Users\ASUS\Desktop\distfs-master\build\poco\tmp\poco-cfgcmd.txt.in;D:\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.16\Modules\ExternalProject.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/ASUS/Desktop/distfs-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/ASUS/Desktop/distfs-master -BC:/Users/ASUS/Desktop/distfs-master/build --check-stamp-file C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeCCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeCXXCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeRCCompiler.cmake;C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\3.16.0-rc3\CMakeSystem.cmake;C:\Users\ASUS\Desktop\distfs-master\build\DistFS-prefix\tmp\DistFS-cfgcmd.txt.in;C:\Users\ASUS\Desktop\distfs-master\build\poco\tmp\poco-cfgcmd.txt.in;D:\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.16\Modules\ExternalProject.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\poco" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ASUS\Desktop\distfs-master\build\ZERO_CHECK.vcxproj">
+      <Project>{03B5318D-31F4-36FF-8F95-812266F6EF22}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/DistFS"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/2744977c33f3f69d034f4b35c42cb9e2/DistFS.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/a7ab44a582d4fb99effe8ca958806915/DistFS-complete.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/1c17ae14737de0226e4fc55b12013014/DistFS-install.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/1c17ae14737de0226e4fc55b12013014/DistFS-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/1c17ae14737de0226e4fc55b12013014/DistFS-download.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/1c17ae14737de0226e4fc55b12013014/DistFS-update.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/1c17ae14737de0226e4fc55b12013014/DistFS-patch.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/1c17ae14737de0226e4fc55b12013014/DistFS-configure.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/1c17ae14737de0226e4fc55b12013014/DistFS-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"DistFS"
+		],
+		"name" : "DistFS"
+	}
+}

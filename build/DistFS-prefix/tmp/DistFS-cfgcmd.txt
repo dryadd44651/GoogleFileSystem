@@ -1,0 +1,1 @@
+cmd='D:/CMake/bin/cmake.exe;-DPoco_DIR:PATH=C:/Users/ASUS/Desktop/distfs-master/build/poco/Poco;-GVisual Studio 15 2017;-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2017/Community;<SOURCE_DIR><SOURCE_SUBDIR>'

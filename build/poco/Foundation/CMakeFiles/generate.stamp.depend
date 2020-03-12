@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Users/ASUS/Desktop/distfs-master/external/poco-1.9.3/Foundation/CMakeLists.txt
+C:/Users/ASUS/Desktop/distfs-master/external/poco-1.9.3/Foundation/cmake/PocoFoundationConfig.cmake
+D:/CMake/share/cmake-3.16/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+D:/CMake/share/cmake-3.16/Modules/CMakePackageConfigHelpers.cmake
+D:/CMake/share/cmake-3.16/Modules/WriteBasicConfigVersionFile.cmake

@@ -1,0 +1,13 @@
+# Target labels
+ poco
+# Source files and their labels
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/poco
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/2744977c33f3f69d034f4b35c42cb9e2/poco.rule
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/a7ab44a582d4fb99effe8ca958806915/poco-complete.rule
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/731ee8769ba3dbe5ea0d66d8363b729f/poco-install.rule
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/731ee8769ba3dbe5ea0d66d8363b729f/poco-mkdir.rule
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/731ee8769ba3dbe5ea0d66d8363b729f/poco-download.rule
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/731ee8769ba3dbe5ea0d66d8363b729f/poco-update.rule
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/731ee8769ba3dbe5ea0d66d8363b729f/poco-patch.rule
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/731ee8769ba3dbe5ea0d66d8363b729f/poco-configure.rule
+C:/Users/ASUS/Desktop/distfs-master/build/CMakeFiles/731ee8769ba3dbe5ea0d66d8363b729f/poco-build.rule

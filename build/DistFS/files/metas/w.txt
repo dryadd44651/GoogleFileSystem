@@ -1,0 +1,9 @@
+{
+    "chunk_size" : 4096,
+    "chunks" : [
+
+    ],
+    "filename" : "w.txt",
+    "length" : 0,
+    "replica_count" : 3
+}

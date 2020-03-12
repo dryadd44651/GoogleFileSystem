@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\AbstractContainerNode.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\AbstractNode.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\Attr.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\AttrMap.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\Attributes.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\AttributesImpl.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\CDATASection.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\CharacterData.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\ChildNodesList.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\Comment.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\ContentHandler.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\DOMBuilder.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\DOMException.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\DOMImplementation.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\DOMObject.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\DOMParser.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\DOMSerializer.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\DOMWriter.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\DTDHandler.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\DTDMap.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\DeclHandler.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\DefaultHandler.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\Document.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\DocumentEvent.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\DocumentFragment.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\DocumentType.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\Element.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\ElementsByTagNameList.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\Entity.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\EntityReference.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\EntityResolver.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\EntityResolverImpl.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\ErrorHandler.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\Event.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\EventDispatcher.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\EventException.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\EventListener.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\EventTarget.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\InputSource.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\LexicalHandler.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\Locator.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\LocatorImpl.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\MutationEvent.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\Name.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\NamePool.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\NamedNodeMap.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\NamespaceStrategy.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\NamespaceSupport.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\Node.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\NodeAppender.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\NodeFilter.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\NodeIterator.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\NodeList.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\Notation.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\ParserEngine.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\ProcessingInstruction.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\QName.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\SAXException.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\SAXParser.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\Text.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\TreeWalker.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\ValueTraits.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\WhitespaceFilter.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\XMLException.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\XMLFilter.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\XMLFilterImpl.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\XMLReader.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\XMLStreamParser.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\XMLStreamParserException.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\XMLString.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\XMLWriter.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\xmlparse.cpp">
+      <Filter>expat\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\xmlrole.c">
+      <Filter>expat\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\xmltok.c">
+      <Filter>expat\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\xmltok_impl.c">
+      <Filter>expat\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\src\xmltok_ns.c">
+      <Filter>expat\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\AbstractContainerNode.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\AbstractNode.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\Attr.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\AttrMap.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\AutoPtr.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\CDATASection.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\CharacterData.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\ChildNodesList.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\Comment.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\DOMBuilder.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\DOMException.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\DOMImplementation.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\DOMObject.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\DOMParser.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\DOMSerializer.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\DOMWriter.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\DTDMap.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\Document.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\DocumentEvent.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\DocumentFragment.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\DocumentType.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\Element.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\ElementsByTagNameList.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\Entity.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\EntityReference.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\Event.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\EventDispatcher.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\EventException.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\EventListener.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\EventTarget.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\MutationEvent.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\NamedNodeMap.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\Node.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\NodeAppender.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\NodeFilter.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\NodeIterator.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\NodeList.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\Notation.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\ProcessingInstruction.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\Text.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\DOM\TreeWalker.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\Attributes.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\AttributesImpl.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\ContentHandler.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\DTDHandler.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\DeclHandler.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\DefaultHandler.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\EntityResolver.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\EntityResolverImpl.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\ErrorHandler.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\InputSource.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\LexicalHandler.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\Locator.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\LocatorImpl.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\NamespaceSupport.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\SAXException.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\SAXParser.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\WhitespaceFilter.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\XMLFilter.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\XMLFilterImpl.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\SAX\XMLReader.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\XML\Content.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\XML\Name.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\XML\NamePool.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\XML\NamespaceStrategy.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\XML\ParserEngine.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\XML\QName.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\XML\ValueTraits.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\XML\XML.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\XML\XMLException.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\XML\XMLStream.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\XML\XMLStreamParser.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\XML\XMLStreamParserException.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\XML\XMLString.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\XML\XMLWriter.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\XML\expat.h">
+      <Filter>Unknown\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\include\Poco\XML\expat_external.h">
+      <Filter>Unknown\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\XML\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DOM">
+      <UniqueIdentifier>{478D3C33-5D48-3F65-90CB-295270192F80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DOM\Header Files">
+      <UniqueIdentifier>{D0586243-6E1B-30A3-99C7-B04725D12C45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DOM\Source Files">
+      <UniqueIdentifier>{2E881C34-91F1-3725-B833-6A6797CB67E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAX">
+      <UniqueIdentifier>{C041CB78-9311-365A-B701-2CD59F0B915B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAX\Header Files">
+      <UniqueIdentifier>{4F2E0188-337B-3BA3-9B67-F3921D545935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAX\Source Files">
+      <UniqueIdentifier>{397E12B2-7326-30D7-A204-916576C105F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unknown">
+      <UniqueIdentifier>{348F78FE-2EAD-35F9-9788-7C6E44F392CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unknown\Header Files">
+      <UniqueIdentifier>{57CCDA09-548B-3F56-82AA-DA5CC09DF0F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{BA79CFE0-B295-3BEE-85B3-18D45FE6446A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\Header Files">
+      <UniqueIdentifier>{F96760B0-978D-32F9-A1C9-1813DC692B43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\Source Files">
+      <UniqueIdentifier>{8220E71F-AA36-3005-BBB6-9A7B24EFA31C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="expat">
+      <UniqueIdentifier>{434E75F5-4AD5-390A-B313-E373D5BF6D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="expat\Source Files">
+      <UniqueIdentifier>{9F49FB9E-82AF-3FB4-8A9D-AE677EFA18DA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+C:/Users/ASUS/Desktop/distfs-master/build/DistFS/CMakeFiles/difscs.dir
+C:/Users/ASUS/Desktop/distfs-master/build/DistFS/CMakeFiles/difsms.dir
+C:/Users/ASUS/Desktop/distfs-master/build/DistFS/CMakeFiles/difsas.dir
+C:/Users/ASUS/Desktop/distfs-master/build/DistFS/CMakeFiles/ALL_BUILD.dir
+C:/Users/ASUS/Desktop/distfs-master/build/DistFS/CMakeFiles/ZERO_CHECK.dir

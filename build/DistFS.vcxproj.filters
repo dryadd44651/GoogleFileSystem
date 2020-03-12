@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\1c17ae14737de0226e4fc55b12013014\DistFS-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\1c17ae14737de0226e4fc55b12013014\DistFS-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\1c17ae14737de0226e4fc55b12013014\DistFS-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\1c17ae14737de0226e4fc55b12013014\DistFS-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\1c17ae14737de0226e4fc55b12013014\DistFS-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\1c17ae14737de0226e4fc55b12013014\DistFS-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\1c17ae14737de0226e4fc55b12013014\DistFS-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\a7ab44a582d4fb99effe8ca958806915\DistFS-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\2744977c33f3f69d034f4b35c42cb9e2\DistFS.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ASUS\Desktop\distfs-master\build\CMakeFiles\DistFS" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D3DAF607-A6B0-339A-A74B-0D279CA6B1B1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

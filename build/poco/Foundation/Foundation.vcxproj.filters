@@ -1,0 +1,1977 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\ASCIIEncoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\AbstractObserver.cpp">
+      <Filter>Notifications\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\ActiveDispatcher.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\ArchiveStrategy.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Ascii.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\AsyncChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\AtomicCounter.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Base32Decoder.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Base32Encoder.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Base64Decoder.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Base64Encoder.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\BinaryReader.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\BinaryWriter.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Bugcheck.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\ByteOrder.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Channel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Checksum.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Clock.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Condition.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Configurable.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\ConsoleChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\CountingStream.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\DateTime.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\DateTimeFormat.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\DateTimeFormatter.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\DateTimeParser.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Debugger.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\DeflatingStream.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\DigestEngine.cpp">
+      <Filter>Crypt\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\DigestStream.cpp">
+      <Filter>Crypt\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\DirectoryIterator.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\DirectoryIteratorStrategy.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\DirectoryWatcher.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Environment.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Error.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\ErrorHandler.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Event.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\EventArgs.cpp">
+      <Filter>Events\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\EventChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\EventLogChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Exception.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\FIFOBufferStream.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\FPEnvironment.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\File.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\FileChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\FileStream.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\FileStreamFactory.cpp">
+      <Filter>URI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Format.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Formatter.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\FormattingChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Glob.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Hash.cpp">
+      <Filter>Hashing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\HashStatistic.cpp">
+      <Filter>Hashing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\HexBinaryDecoder.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\HexBinaryEncoder.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\InflatingStream.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\JSONString.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Latin1Encoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Latin2Encoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Latin9Encoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\LineEndingConverter.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\LocalDateTime.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\LogFile.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\LogStream.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Logger.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\LoggingFactory.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\LoggingRegistry.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\MD4Engine.cpp">
+      <Filter>Crypt\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\MD5Engine.cpp">
+      <Filter>Crypt\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Manifest.cpp">
+      <Filter>SharedLibrary\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\MemoryPool.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\MemoryStream.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Message.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Mutex.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\NamedEvent.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\NamedMutex.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\NestedDiagnosticContext.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Notification.cpp">
+      <Filter>Notifications\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\NotificationCenter.cpp">
+      <Filter>Notifications\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\NotificationQueue.cpp">
+      <Filter>Notifications\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\NullChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\NullStream.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\NumberFormatter.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\NumberParser.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\NumericString.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Path.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\PatternFormatter.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Pipe.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\PipeImpl.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\PipeStream.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\PriorityNotificationQueue.cpp">
+      <Filter>Notifications\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Process.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\PurgeStrategy.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\RWLock.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Random.cpp">
+      <Filter>Crypt\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\RandomStream.cpp">
+      <Filter>Crypt\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\RefCountedObject.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\RegularExpression.cpp">
+      <Filter>RegExp\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\RotateStrategy.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Runnable.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\SHA1Engine.cpp">
+      <Filter>Crypt\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Semaphore.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\SharedLibrary.cpp">
+      <Filter>SharedLibrary\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\SharedMemory.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\SignalHandler.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\SimpleFileChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\SortedDirectoryIterator.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\SplitterChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Stopwatch.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\StreamChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\StreamConverter.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\StreamCopier.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\StreamTokenizer.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\String.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\StringTokenizer.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\SynchronizedObject.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Task.cpp">
+      <Filter>Tasks\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\TaskManager.cpp">
+      <Filter>Tasks\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\TaskNotification.cpp">
+      <Filter>Tasks\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\TeeStream.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\TemporaryFile.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\TextBufferIterator.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\TextConverter.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\TextEncoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\TextIterator.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Thread.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\ThreadLocal.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\ThreadPool.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\ThreadTarget.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\TimedNotificationQueue.cpp">
+      <Filter>Notifications\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Timer.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Timespan.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Timestamp.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Timezone.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Token.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\URI.cpp">
+      <Filter>URI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\URIStreamFactory.cpp">
+      <Filter>URI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\URIStreamOpener.cpp">
+      <Filter>URI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\UTF16Encoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\UTF32Encoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\UTF8Encoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\UTF8String.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\UUID.cpp">
+      <Filter>UUID\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\UUIDGenerator.cpp">
+      <Filter>UUID\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Unicode.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\UnicodeConverter.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Var.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\VarHolder.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\VarIterator.cpp">
+      <Filter>Dynamic\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Void.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Windows1250Encoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Windows1251Encoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Windows1252Encoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\WindowsConsoleChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_config.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_byte_order.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_chartables.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_compile.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_exec.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_fullinfo.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_globals.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_maketables.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_newline.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_ord2utf8.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_study.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_tables.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_dfa_exec.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_get.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_jit_compile.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_refcount.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_string_utils.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_version.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_ucd.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_valid_utf8.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pcre_xclass.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\adler32.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\compress.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\crc32.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\deflate.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\infback.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\inffast.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\inflate.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\inftrees.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\trees.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\zutil.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\DirectoryIterator_UNIX.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\DirectoryIterator_WIN32.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\DirectoryIterator_WIN32U.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Environment_UNIX.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Environment_VX.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Environment_WIN32.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Environment_WIN32U.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Environment_WINCE.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Event_POSIX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Event_VX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Event_WIN32.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\FPEnvironment_C99.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\FPEnvironment_DEC.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\FPEnvironment_DUMMY.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\FPEnvironment_QNX.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\FPEnvironment_SUN.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\FPEnvironment_WIN32.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\FileStream_POSIX.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\FileStream_WIN32.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\File_UNIX.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\File_VX.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\File_WIN32.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\File_WIN32U.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\File_WINCE.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\LogFile_STD.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\LogFile_WIN32.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\LogFile_WIN32U.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Mutex_POSIX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Mutex_VX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Mutex_WIN32.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Mutex_WINCE.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\NamedEvent_Android.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\NamedEvent_UNIX.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\NamedEvent_WIN32.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\NamedEvent_WIN32U.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\NamedMutex_Android.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\NamedMutex_UNIX.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\NamedMutex_WIN32.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\NamedMutex_WIN32U.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Path_UNIX.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Path_WIN32.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Path_WIN32U.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Path_WINCE.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\PipeImpl_DUMMY.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\PipeImpl_POSIX.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\PipeImpl_WIN32.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Process_UNIX.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Process_VX.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Process_WIN32.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Process_WIN32U.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Process_WINCE.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\RWLock_Android.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\RWLock_POSIX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\RWLock_VX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\RWLock_WIN32.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\RWLock_WINCE.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Semaphore_POSIX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Semaphore_VX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Semaphore_WIN32.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\SharedLibrary_HPUX.cpp">
+      <Filter>SharedLibrary\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\SharedLibrary_UNIX.cpp">
+      <Filter>SharedLibrary\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\SharedLibrary_VX.cpp">
+      <Filter>SharedLibrary\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\SharedLibrary_WIN32.cpp">
+      <Filter>SharedLibrary\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\SharedLibrary_WIN32U.cpp">
+      <Filter>SharedLibrary\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\SharedMemory_DUMMY.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\SharedMemory_POSIX.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\SharedMemory_WIN32.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\SyslogChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Thread_POSIX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Thread_VX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Thread_WIN32.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Thread_WINCE.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Timezone_UNIX.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Timezone_VX.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Timezone_WIN32.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\Timezone_WINCE.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ASCIIEncoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\AbstractCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\AbstractDelegate.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\AbstractEvent.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\AbstractObserver.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\AbstractPriorityDelegate.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\AbstractStrategy.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\AccessExpirationDecorator.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\AccessExpireCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\AccessExpireLRUCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\AccessExpireStrategy.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ActiveDispatcher.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ActiveMethod.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ActiveResult.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ActiveRunnable.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ActiveStarter.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Activity.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Alignment.h">
+      <Filter>Dynamic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Any.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ArchiveStrategy.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Array.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Ascii.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\AsyncChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\AtomicCounter.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\AutoPtr.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\AutoReleasePool.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Base32Decoder.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Base32Encoder.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Base64Decoder.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Base64Encoder.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\BasicEvent.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\BinaryReader.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\BinaryWriter.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Buffer.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\BufferAllocator.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\BufferedBidirectionalStreamBuf.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\BufferedStreamBuf.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Bugcheck.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ByteOrder.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Channel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Checksum.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ClassLibrary.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ClassLoader.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Clock.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Condition.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Config.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Configurable.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ConsoleChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\CountingStream.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\DateTime.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\DateTimeFormat.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\DateTimeFormatter.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\DateTimeParser.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Debugger.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\DefaultStrategy.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\DeflatingStream.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Delegate.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\DigestEngine.h">
+      <Filter>Crypt\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\DigestStream.h">
+      <Filter>Crypt\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\DirectoryIterator.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\DirectoryIteratorStrategy.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\DirectoryIterator_UNIX.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\DirectoryIterator_WIN32.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\DirectoryIterator_WIN32U.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\DirectoryWatcher.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Dynamic\Pair.h">
+      <Filter>Dynamic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Dynamic\Struct.h">
+      <Filter>Dynamic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Dynamic\Var.h">
+      <Filter>Dynamic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Dynamic\VarHolder.h">
+      <Filter>Dynamic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Dynamic\VarIterator.h">
+      <Filter>Dynamic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\DynamicAny.h">
+      <Filter>Dynamic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\DynamicAnyHolder.h">
+      <Filter>Dynamic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\DynamicFactory.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\DynamicStruct.h">
+      <Filter>Dynamic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Environment.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Environment_UNIX.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Environment_VX.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Environment_WIN32.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Environment_WIN32U.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Environment_WINCE.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Error.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ErrorHandler.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Event.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\EventArgs.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\EventChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\EventLogChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Event_POSIX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Event_VX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Event_WIN32.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Exception.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ExpirationDecorator.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Expire.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ExpireCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ExpireLRUCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ExpireStrategy.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\FIFOBuffer.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\FIFOBufferStream.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\FIFOEvent.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\FIFOStrategy.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\FPEnvironment.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\FPEnvironment_C99.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\FPEnvironment_DEC.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\FPEnvironment_DUMMY.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\FPEnvironment_QNX.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\FPEnvironment_SUN.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\FPEnvironment_WIN32.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\File.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\FileChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\FileStream.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\FileStreamFactory.h">
+      <Filter>URI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\FileStream_POSIX.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\FileStream_WIN32.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\File_UNIX.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\File_VX.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\File_WIN32.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\File_WIN32U.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\File_WINCE.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Format.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Formatter.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\FormattingChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Foundation.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\FunctionDelegate.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\FunctionPriorityDelegate.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Glob.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\HMACEngine.h">
+      <Filter>Crypt\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Hash.h">
+      <Filter>Hashing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\HashFunction.h">
+      <Filter>Hashing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\HashMap.h">
+      <Filter>Hashing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\HashSet.h">
+      <Filter>Hashing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\HashStatistic.h">
+      <Filter>Hashing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\HashTable.h">
+      <Filter>Hashing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\HexBinaryDecoder.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\HexBinaryEncoder.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\InflatingStream.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Instantiator.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\JSONString.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\KeyValueArgs.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\LRUCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\LRUStrategy.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Latin1Encoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Latin2Encoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Latin9Encoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\LineEndingConverter.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\LinearHashTable.h">
+      <Filter>Hashing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ListMap.h">
+      <Filter>Hashing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\LocalDateTime.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\LogFile.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\LogFile_STD.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\LogFile_WIN32.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\LogFile_WIN32U.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\LogStream.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Logger.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\LoggingFactory.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\LoggingRegistry.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\MD4Engine.h">
+      <Filter>Crypt\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\MD5Engine.h">
+      <Filter>Crypt\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Manifest.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\MemoryPool.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\MemoryStream.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Message.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\MetaObject.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\MetaProgramming.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Mutex.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Mutex_POSIX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Mutex_VX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Mutex_WIN32.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Mutex_WINCE.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NObserver.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NamedEvent.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NamedEvent_Android.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NamedEvent_UNIX.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NamedEvent_WIN32.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NamedEvent_WIN32U.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NamedMutex.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NamedMutex_Android.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NamedMutex_UNIX.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NamedMutex_WIN32.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NamedMutex_WIN32U.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NamedTuple.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NestedDiagnosticContext.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Notification.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NotificationCenter.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NotificationQueue.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NotificationStrategy.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NullChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NullStream.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Nullable.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NumberFormatter.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NumberParser.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\NumericString.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ObjectPool.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Observer.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Optional.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\PBKDF2Engine.h">
+      <Filter>Crypt\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Path.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Path_UNIX.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Path_WIN32.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Path_WIN32U.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Path_WINCE.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\PatternFormatter.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Pipe.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\PipeImpl.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\PipeImpl_DUMMY.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\PipeImpl_POSIX.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\PipeImpl_WIN32.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\PipeStream.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Platform.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Platform_POSIX.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Platform_VX.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Platform_WIN32.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Poco.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\PriorityDelegate.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\PriorityEvent.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\PriorityExpire.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\PriorityNotificationQueue.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\PriorityStrategy.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Process.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Process_UNIX.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Process_VX.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Process_WIN32.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Process_WIN32U.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Process_WINCE.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\PurgeStrategy.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\RWLock.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\RWLock_Android.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\RWLock_POSIX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\RWLock_VX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\RWLock_WIN32.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\RWLock_WINCE.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Random.h">
+      <Filter>Crypt\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\RandomStream.h">
+      <Filter>Crypt\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\RecursiveDirectoryIterator.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\RecursiveDirectoryIteratorImpl.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\RefCountedObject.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\RegularExpression.h">
+      <Filter>RegExp\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\RotateStrategy.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Runnable.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\RunnableAdapter.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SHA1Engine.h">
+      <Filter>Crypt\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ScopedLock.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ScopedUnlock.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Semaphore.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Semaphore_POSIX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Semaphore_VX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Semaphore_WIN32.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SharedLibrary.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SharedLibrary_HPUX.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SharedLibrary_UNIX.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SharedLibrary_VX.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SharedLibrary_WIN32.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SharedLibrary_WIN32U.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SharedMemory.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SharedMemory_DUMMY.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SharedMemory_POSIX.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SharedMemory_WIN32.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SharedPtr.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SignalHandler.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SimpleFileChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SimpleHashTable.h">
+      <Filter>Hashing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SingletonHolder.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SortedDirectoryIterator.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SplitterChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Stopwatch.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\StrategyCollection.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\StreamChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\StreamConverter.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\StreamCopier.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\StreamTokenizer.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\StreamUtil.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\String.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\StringTokenizer.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SynchronizedObject.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\SyslogChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Task.h">
+      <Filter>Tasks\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\TaskManager.h">
+      <Filter>Tasks\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\TaskNotification.h">
+      <Filter>Tasks\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\TeeStream.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\TemporaryFile.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\TextBufferIterator.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\TextConverter.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\TextEncoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\TextIterator.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Thread.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ThreadLocal.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ThreadPool.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ThreadTarget.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Thread_POSIX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Thread_VX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Thread_WIN32.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Thread_WINCE.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\TimedNotificationQueue.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Timer.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Timespan.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Timestamp.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Timezone.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Token.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Tuple.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\TypeList.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Types.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\URI.h">
+      <Filter>URI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\URIStreamFactory.h">
+      <Filter>URI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\URIStreamOpener.h">
+      <Filter>URI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\UTF16Encoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\UTF32Encoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\UTF8Encoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\UTF8String.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\UTFString.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\UUID.h">
+      <Filter>UUID\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\UUIDGenerator.h">
+      <Filter>UUID\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\UnWindows.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\UnbufferedStreamBuf.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Unicode.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\UnicodeConverter.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\UniqueAccessExpireCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\UniqueAccessExpireLRUCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\UniqueAccessExpireStrategy.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\UniqueExpireCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\UniqueExpireLRUCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\UniqueExpireStrategy.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\ValidArgs.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Version.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Void.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Windows1250Encoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Windows1251Encoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\Windows1252Encoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\WindowsConsoleChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\zconf.h">
+      <Filter>zlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\include\Poco\zlib.h">
+      <Filter>zlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\build\poco\Foundation\pocomsg.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\src\pocomsg.mc">
+      <Filter>Logging\Message Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\build\poco\CMakeFiles\8fa996f3fad112748034f4659e68a7c2\pocomsg.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\distfs-master\external\poco-1.9.3\Foundation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FCC619BF-5987-3673-BB59-D2455319AF5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cache">
+      <UniqueIdentifier>{7A1CCB4F-8535-3952-B36A-BE9B75F182BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cache\Header Files">
+      <UniqueIdentifier>{458BF6B0-A5D2-39D8-977B-3B430DA37519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{018C4E96-4A01-3658-A085-1BA122B09DD6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Header Files">
+      <UniqueIdentifier>{D9FF0D32-3128-3B04-815C-4B14E5B6E188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Source Files">
+      <UniqueIdentifier>{D344BED9-C8F6-36D9-9DA6-3A0EE6140F93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crypt">
+      <UniqueIdentifier>{7F920734-CC2A-382A-BB46-50299813D166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crypt\Header Files">
+      <UniqueIdentifier>{537470B1-73DA-3BDE-B279-89D67474C35E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crypt\Source Files">
+      <UniqueIdentifier>{6DEDC4C0-EEA8-3789-A34D-1BCF9D3228A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DateTime">
+      <UniqueIdentifier>{00BFC297-B41F-3FFD-A0A9-82D4D7BCFBDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DateTime\Header Files">
+      <UniqueIdentifier>{9BA532EF-DBE4-32B0-945D-287E4C649E84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DateTime\Source Files">
+      <UniqueIdentifier>{77820A41-B760-3FB9-AE99-4C7E2FC150F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamic">
+      <UniqueIdentifier>{D27F5DB4-49A8-3D2D-B540-014EBC0BADAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamic\Header Files">
+      <UniqueIdentifier>{534D1B8B-A039-3E5C-AB89-5B1B17E506C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamic\Source Files">
+      <UniqueIdentifier>{F34D5DFE-C279-3A55-9528-3051F819B045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{AE1229B9-9EAF-3B50-9248-48733DCC7B0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\Header Files">
+      <UniqueIdentifier>{78431474-A69F-36AF-B7FA-B8456523BF15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\Source Files">
+      <UniqueIdentifier>{B25B5892-8085-3006-8A36-439129CAA9C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Filesystem">
+      <UniqueIdentifier>{865A8999-C078-3E5B-BC76-D95CDE96EE9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Filesystem\Header Files">
+      <UniqueIdentifier>{AABEB4A5-B30B-3745-8E9B-C32B48C21258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Filesystem\Source Files">
+      <UniqueIdentifier>{1763A7F4-1E1A-3BD5-A78D-0B8209D25C92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hashing">
+      <UniqueIdentifier>{7A729E12-A82C-3E01-9105-D9FE68922527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hashing\Header Files">
+      <UniqueIdentifier>{B1AC0F4F-6B5D-3B1C-A438-24C271DF0EC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hashing\Source Files">
+      <UniqueIdentifier>{6FE16F23-45B6-3477-BAB9-49A25071BE4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{402A5EC2-A5C9-38EA-A76B-6C60D86ADB25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging\Header Files">
+      <UniqueIdentifier>{728731A4-2635-3685-9832-B946C97ACEA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging\Message Files">
+      <UniqueIdentifier>{A9092875-A55E-3972-BA37-0CFBBB1BB3B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging\Source Files">
+      <UniqueIdentifier>{3260CADF-AFAE-3D87-8D22-21DF54CB58B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Notifications">
+      <UniqueIdentifier>{D7AA6419-117A-37D2-85C2-8CDDD24870D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Notifications\Header Files">
+      <UniqueIdentifier>{4E3A0D70-83C4-3C95-BBF9-6A84B3F92477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Notifications\Source Files">
+      <UniqueIdentifier>{CA83AFA4-1953-3EEC-BAF9-F062F8BD8008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Processes">
+      <UniqueIdentifier>{416F2B21-B800-3BBC-991D-CA5970209054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Processes\Header Files">
+      <UniqueIdentifier>{C98A62FB-4C9A-3412-947F-693B090B9104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Processes\Source Files">
+      <UniqueIdentifier>{871CF29F-576D-3A09-8B39-80A45A72EF1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RegExp">
+      <UniqueIdentifier>{671C28AE-3DF6-31FD-AA56-CB7F0CE9A86D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RegExp\Header Files">
+      <UniqueIdentifier>{3C1124F7-89EF-3832-8E99-1CB2565E347E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RegExp\Source Files">
+      <UniqueIdentifier>{2B175032-6AF4-3FAE-BBB2-AF609CCDBF70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedLibrary">
+      <UniqueIdentifier>{EC9F2854-E600-34FD-9374-7D30A1765290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedLibrary\Header Files">
+      <UniqueIdentifier>{C4DF64AD-DC68-3C17-8EC2-C48C7EF09FF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedLibrary\Source Files">
+      <UniqueIdentifier>{853326F0-C20F-3A0A-9449-64311832DE00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Streams">
+      <UniqueIdentifier>{6132606B-C9EB-3E6A-AB7C-477B5D2B84A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Streams\Header Files">
+      <UniqueIdentifier>{7A1E1126-F5EB-390F-9AFB-9D0F45E2068D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Streams\Source Files">
+      <UniqueIdentifier>{E4C1E644-3F5D-3780-B090-F8794A99F411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tasks">
+      <UniqueIdentifier>{0966F4E0-8993-3525-B011-475F4A2B4ABD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tasks\Header Files">
+      <UniqueIdentifier>{4FFBE44B-94AC-3FCD-A8A1-7F437A5EA229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tasks\Source Files">
+      <UniqueIdentifier>{3EF52F6A-A7DB-31C3-9CBC-686FB9E13CC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{1EB404A6-8CD9-379C-9447-5479F4507D58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text\Header Files">
+      <UniqueIdentifier>{F6A3A10F-4CD4-374E-8697-192E0C02B9B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text\Source Files">
+      <UniqueIdentifier>{38922367-EF0D-3618-882C-AFD9F284B862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{CCDA9CEA-3C59-3653-90B1-AA2386D2E54C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading\Header Files">
+      <UniqueIdentifier>{308A62FC-7D97-36D3-8ED9-1AE852204446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading\Source Files">
+      <UniqueIdentifier>{93D04904-6508-30AD-B6B9-286D7ED5B146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="URI">
+      <UniqueIdentifier>{B0A06C0A-8236-3525-9147-985631FD490A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="URI\Header Files">
+      <UniqueIdentifier>{9BDE05D0-B5F1-3644-8517-EDA97DD5BCC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="URI\Source Files">
+      <UniqueIdentifier>{CAD3C76C-2F86-3C38-93DB-DB4E933DAB45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UUID">
+      <UniqueIdentifier>{34A6F7DC-9CD1-3852-9E35-2DAC4F20CB13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UUID\Header Files">
+      <UniqueIdentifier>{6597F25F-1BFF-3207-93DF-859B0ACCEE95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UUID\Source Files">
+      <UniqueIdentifier>{FC691A0F-6D4C-336C-B8FA-62C9C5CBE590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pcre">
+      <UniqueIdentifier>{7BB4D743-35D6-3D54-BB83-ADBA7FBA9270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pcre\Source Files">
+      <UniqueIdentifier>{1B274331-0615-3895-AD56-A6FEC9CD8A02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{AF080C35-9DFD-35E3-BC39-AF596AA2F7E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib\Header Files">
+      <UniqueIdentifier>{70833B7B-EE23-3C10-B598-C3AA8CCC915A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib\Source Files">
+      <UniqueIdentifier>{D343DCA0-4118-3772-B19F-301D07081046}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
